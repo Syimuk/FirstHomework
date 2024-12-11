@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #4a42f4;
+  width: 100%;
+  height: 5.25em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.buttonheaders {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navhedears {
+  display: flex;
+  gap: 20px;
+}
+
+.logoheaders {
+  width: 40px;
+  height: 40px;
+}
+
+.navhedears > a {
+  width: 189px;
+  height: 24px;
+  color: #fbfbfb;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.navhedears > a > img {
+  width: 9px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.logbutton {
+  width: 82px;
+  height: 36px;
+  border-radius: 50px;
+  border: 2.4px solid;
+  background-color: #fbfbfb;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+.singbutton {
+  width: 88px;
+  height: 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #34e0a1;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  cursor: pointer;
+}
